@@ -13,18 +13,27 @@ No coding knowledge required to use
 
 
 🗂️ **Project Structure**
+
 braintumor/
+
 ├── app.py              # Streamlit web app (main file)
+
 ├── model.py            # Neural network architecture
+
 ├── train.py            # Model training script
+
 ├── predict.py          # Standalone prediction script
+
 ├── brain_tumor_model.pth   # Trained model weights
+
 ├── requirements.txt    # Dependencies
+
 └── data/
     ├── tumor/          # Tumor MRI images
     └── normal/         # Healthy MRI images
 
 🚀 **Run Locally**
+
 bashpip install -r requirements.txt
 python -m streamlit run app.py
 Open browser and go to http://localhost:8501
